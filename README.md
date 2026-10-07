@@ -4,13 +4,13 @@ I build tools for operating infrastructure, automating macOS workflows, and maki
 
 ## Selected projects
 
-| Project | What it provides | Checks |
-| --- | --- | --- |
-| [GitHub runner infrastructure](https://github.com/somethingwithproof/github-runners-infra) | A Go controller for repository-scoped, single-job runners across DigitalOcean, AWS, Google Cloud, and Azure |  |
-| [California Solar Atlas](https://github.com/somethingwithproof/california-solar-atlas) | A static explorer for California distributed-solar data, with methodology and explicit coverage/modeling limits |  |
-| [MacGTD](https://github.com/somethingwithproof/MacGTD) | macOS capture workflows for productivity applications, using AppleScript, Automator, and Alfred |  |
-| [CommitKit](https://github.com/somethingwithproof/commitkit-rust) | An interactive Rust CLI for constructing Conventional Commit messages |  |
-| [Bitcoin price check](https://github.com/somethingwithproof/check_bitcoin_price) | A Nagios/Icinga plugin with price thresholds, optional quote-freshness checks, and bounded request retries |  |
+| Project | What it provides |
+| --- | --- |
+| [GitHub runner infrastructure](https://github.com/somethingwithproof/github-runners-infra) | A Go controller for repository-scoped, single-job runners across DigitalOcean, AWS, Google Cloud, and Azure | |
+| [California Solar Atlas](https://github.com/somethingwithproof/california-solar-atlas) | A static explorer for California distributed-solar data, with methodology and explicit coverage/modeling limits | |
+| [MacGTD](https://github.com/somethingwithproof/MacGTD) | macOS capture workflows for productivity applications, using AppleScript, Automator, and Alfred | |
+| [CommitKit](https://github.com/somethingwithproof/commitkit-rust) | An interactive Rust CLI for constructing Conventional Commit messages | |
+| [Bitcoin price check](https://github.com/somethingwithproof/check_bitcoin_price) | A Nagios/Icinga plugin with price thresholds, optional quote-freshness checks, and bounded request retries | |
 
 Each project's README, source, and workflow results define its current scope. Experimental features and platform-specific integrations need their own validation; a badge is not a production-readiness claim.
 
