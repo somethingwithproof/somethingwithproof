@@ -1,29 +1,32 @@
-# Thomas Vincent — somethingwithproof
+# Thomas Vincent
 
-Staff / senior engineer working across backend systems, observability, and security hardening.
+I build tools for operating infrastructure, automating macOS workflows, and making system behavior easier to inspect. My work spans Go, Python, Rust, PHP, TypeScript, and infrastructure configuration.
 
-## Stack
+## Selected projects
 
-- **Go** — CLI tooling, CI/CD pipelines, services
-- **Python** — automation, data pipelines, ML tooling
-- **PHP** — upstream contributions to Cacti, phpMyAdmin
-- **Rust** — terminal UIs, performance-sensitive tools
-- **TypeScript** — dashboards, MCP servers
-- **Infra** — Terraform, Kubernetes, GitHub Actions (SHA-pinned), Cloudflare
+| Project | What it provides |
+| --- | --- |
+| [GitHub runner infrastructure](https://github.com/somethingwithproof/github-runners-infra) | A Go controller for repository-scoped, single-job runners across DigitalOcean, AWS, Google Cloud, and Azure | |
+| [California Solar Atlas](https://github.com/somethingwithproof/california-solar-atlas) | A static explorer for California distributed-solar data, with methodology and explicit coverage/modeling limits | |
+| [MacGTD](https://github.com/somethingwithproof/MacGTD) | macOS capture workflows for productivity applications, using AppleScript, Automator, and Alfred | |
+| [CommitKit](https://github.com/somethingwithproof/commitkit-rust) | An interactive Rust CLI for constructing Conventional Commit messages | |
+| [Bitcoin price check](https://github.com/somethingwithproof/check_bitcoin_price) | A Nagios/Icinga plugin with price thresholds, optional quote-freshness checks, and bounded request retries | |
 
-## Active areas
+Each project's README, source, and workflow results define its current scope. Experimental features and platform-specific integrations need their own validation; a badge is not a production-readiness claim.
 
-- **Cacti ecosystem** — security hardening for core, spine, and 20+ plugins; maintainer of several plugin fixes. See `Cacti/cacti`, `Cacti/spine`, and the `plugin_*` repos.
-- **Wikipedia / Wikidata** — bot-assisted article maintenance, Cherokee Nation and Monticello sourcing projects. All edits follow WP:AISIGNS and MOS.
-- **Trading / market data** — `stonktop`, `trading-platform`, `veritas-mvp`, `market-data-hub`.
-- **Genealogical research** — `gps-genealogy-agents` (multi-agent system for GPS-compliant research).
-- **Developer ergonomics** — `dotfiles` (chezmoi), `MacGTD` (macOS GTD capture), `pipeline-library` (CI/CD Go library).
+## Other work
 
-## Disclosure
+- **Network monitoring:** [Kadupul](https://github.com/kadupulhq/kadupul), a Cacti-derived monitoring project under the `kadupulhq` organization.
+- **Infrastructure configuration:** [MariaDB](https://github.com/somethingwithproof/ansible-role-mariadb), [WordPress](https://github.com/somethingwithproof/ansible-wordpress-enterprise), and [host firewall](https://github.com/somethingwithproof/ansible-collection-firewall) automation, with implementation-specific limits documented in each repository.
+- **macOS integration:** [MCP servers](https://github.com/somethingwithproof/mcp-servers), the consolidated repository for application integrations.
+- **CI tooling:** [Foundry](https://github.com/somethingwithproof/foundry), a profile-based command runner with dependency planning and execution logs.
 
-Security issues in my own repos should go through [GitHub Security Advisories](https://github.com/somethingwithproof/SECURITY) per the repo-level `SECURITY.md`. For upstream projects I contribute to, follow that project's disclosure process — I do not publish pre-auth vulnerabilities as public PRs.
+I also work on genealogical evidence workflows and market-data research. Those interests do not imply certified research conclusions, verified trading performance, or public availability of every research repository.
+
+## Security reports
+
+Follow the affected repository's `SECURITY.md` and its configured private reporting channel. For upstream projects, use the upstream project's disclosure process. Avoid public issues containing undisclosed vulnerability details or credentials.
 
 ## Contact
 
-- GitHub: [@somethingwithproof](https://github.com/somethingwithproof)
-- Commits are GPG-signed and DCO sign-off'd.
+[GitHub: @somethingwithproof](https://github.com/somethingwithproof)
